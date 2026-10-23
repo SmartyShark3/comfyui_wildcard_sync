@@ -20,7 +20,7 @@ Clone this repository into your ComfyUI `custom_nodes` directory:
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/jricketson/comfyui_wildcard_sync.git
+git clone https://github.com/SmartyShark3/comfyui_wildcard_sync.git
 ```
 
 Restart ComfyUI. You will see:

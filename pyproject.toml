@@ -10,10 +10,10 @@ dependencies = []
 dev = ["pytest>=8", "aiohttp>=3.9"]
 
 [project.urls]
-Repository = "https://github.com/jricketson/comfyui_wildcard_sync"
+Repository = "https://github.com/SmartyShark3/comfyui_wildcard_sync"
 
 [tool.comfy]
-PublisherId = "jricketson"
+PublisherId = "SmartyShark3"
 DisplayName = "Wildcard Sync"
 
 [tool.pytest.ini_options]
