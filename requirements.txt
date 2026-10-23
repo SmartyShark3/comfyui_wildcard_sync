@@ -1,0 +1,3 @@
+# Runtime dependencies: None.
+# All required packages (aiohttp) and Python standard libraries are provided
+# by standard ComfyUI installations.
