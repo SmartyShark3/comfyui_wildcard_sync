@@ -1,0 +1,21 @@
+[project]
+name = "comfyui_wildcard_sync"
+description = "HTTP endpoints to replace ComfyUI-Impact-Pack wildcard files from a remote app, keeping several ComfyUI servers in sync."
+version = "0.1.0"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "aiohttp>=3.9"]
+
+[project.urls]
+Repository = "https://github.com/jricketson/comfyui_wildcard_sync"
+
+[tool.comfy]
+PublisherId = "jricketson"
+DisplayName = "Wildcard Sync"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
